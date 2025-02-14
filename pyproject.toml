@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "venteto_django_users"
-version = "0.0.2"
+version = "0.0.3"
 description = "Generic reusable custom user app for Django projects."
 readme = "README.md"
 requires-python = ">= 3.13"
