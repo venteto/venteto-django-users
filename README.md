@@ -10,7 +10,7 @@ This package is only intended for my own personal use, so install at your own ri
 Assumes `twine` is installed and an API token is stored in a `.pypirc` file.
 
 ```bash
-python -m build && twine upload dist/*
+rm -rfv dist/ && python -m build && twine upload --verbose dist/* 
 gac && gp hub main
 git tag v0.0.x && gp hub --tags
 ```

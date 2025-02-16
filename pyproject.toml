@@ -4,12 +4,12 @@ build-backend = "hatchling.build"
 
 [project]
 name = "venteto_django_users"
-version = "0.0.3"
+version = "0.0.5"
 description = "Generic reusable custom user app for Django projects."
 readme = "README.md"
 requires-python = ">= 3.13"
 dependencies = [
-    "venteto-django-abstract>=0.0.1",
+    "venteto-django-abstract>=0.0.6",
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
